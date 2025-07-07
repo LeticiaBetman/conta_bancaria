@@ -28,7 +28,6 @@ Um projeto simples de simulação de sistema bancário em TypeScript, com opera�
 ## 🛠️ Como executar o projeto
 
 ### 1. Clone o repositório:
-```bash
 git clone https://github.com/LeticiaBetman/conta_bancaria.git
 cd banco-nubrasil
 
@@ -41,3 +40,9 @@ npx tsc
 ### 4. Execute o código:
 node dist/index.js
 Obs: Certifique-se de que o arquivo principal está em src/index.ts.
+
+---
+
+## 📄 Licença
+Este projeto é de uso livre para fins educacionais.
+
