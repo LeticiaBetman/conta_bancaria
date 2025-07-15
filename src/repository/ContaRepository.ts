@@ -11,5 +11,5 @@ export interface ContaRepository {
   // Métodos de operação
   sacar(numero: number, valor: number): void;
   depositar(numero: number, valor: number): void;
-  transferir(numerorigem: number, numeroDestino: number, valor: number): void;
+  transferir(numeroOrigem: number, numeroDestino: number, valor: number): void;
 }
