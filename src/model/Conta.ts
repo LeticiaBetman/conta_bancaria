@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 export  abstract class Conta {
-=======
-export class Conta {
->>>>>>> fc25045f0d96c831b0b7df65aee04a9c9684dfca
   private _numero: number;
   private _agencia: number;
   private _tipo: number;
@@ -65,11 +61,7 @@ export class Conta {
 
   public sacar(valor: number): boolean {
     if (this._saldo < valor) {
-<<<<<<< HEAD
       console.log("\nSaldo insuficiente para saque!");
-=======
-      console.log("\nSaldo insuficiente para saque.");
->>>>>>> fc25045f0d96c831b0b7df65aee04a9c9684dfca
       return false;
     }
 
